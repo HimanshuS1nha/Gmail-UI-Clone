@@ -1,6 +1,14 @@
-# Welcome to your Expo app 👋
+# Gmail UI Clone
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A UI clone of the Gmail mobile application.
+
+## Screenshots
+
+![Gmail UI Clone 1](https://github.com/user-attachments/assets/87f50328-c45a-4ad5-814e-f88147ad084f)
+
+![Gmail UI Clone 2](https://github.com/user-attachments/assets/4bd47b45-9ab0-44ee-9ad8-55a0c7b41080)
+
+![Gmail UI Clone 3](https://github.com/user-attachments/assets/b917b10b-81fd-4f86-8038-55b6ca69064f)
 
 ## Get started
 
@@ -13,38 +21,18 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
 2. Start the app
 
    ```bash
-   npx expo start
+    npm run start
    ```
 
-In the output, you'll find options to open the app in a
+## TECH STACK USED
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- React Native Expo
+- Tailwind CSS
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Demo
 
-## Get a fresh project
+Live Demo - Coming Soon
 
-When you're ready, run:
+## 🚀 About Me
 
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+My name is Himanshu Sinha and I'm a full stack developer.
