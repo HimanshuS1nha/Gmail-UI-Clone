@@ -1,10 +1,10 @@
-import { View, Text, ScrollView } from "react-native";
+import { View, Text, ScrollView, Pressable } from "react-native";
 import React, { useMemo } from "react";
 import tw from "twrnc";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { FlashList } from "@shopify/flash-list";
 import { useLocalSearchParams } from "expo-router";
-import { AntDesign, Ionicons } from "@expo/vector-icons";
+import { AntDesign, Ionicons, Feather } from "@expo/vector-icons";
 
 import Header from "@/components/header";
 import MailPreview from "@/components/mail-preview";
@@ -107,6 +107,13 @@ const Mails = () => {
           />
         </View>
       </ScrollView>
+
+      <Pressable
+        style={tw`absolute bottom-3.5 right-3.5 bg-[#ffdac7] flex-row gap-x-3.5 items-center p-3.5 shadow-lg rounded-lg`}
+      >
+        <Feather name="edit-2" size={20} color="black" />
+        <Text style={tw`font-medium`}>Compose</Text>
+      </Pressable>
     </SafeAreaView>
   );
 };
