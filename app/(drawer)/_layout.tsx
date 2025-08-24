@@ -66,6 +66,7 @@ const DrawerLayout = () => {
           drawerStyle: { width: 320 },
         }}
         drawerContent={CustomDrawer}
+        initialRouteName="(tabs)"
       />
     </GestureHandlerRootView>
   );
