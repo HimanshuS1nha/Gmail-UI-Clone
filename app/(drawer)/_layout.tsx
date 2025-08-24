@@ -36,7 +36,11 @@ const CustomDrawer = (props: DrawerContentComponentProps) => {
                 <DrawerItem
                   label={ele.title}
                   key={ele.title}
-                  onPress={() => router.push(ele.url as any)}
+                  onPress={() => {
+                    if (ele.url) {
+                      router.push(ele.url as any);
+                    }
+                  }}
                   icon={({ color, size }) => (
                     <ele.Icon
                       name={ele.iconName as any}

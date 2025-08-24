@@ -9,7 +9,16 @@ import {
   Octicons,
 } from "@expo/vector-icons";
 
-export const drawerItems = [
+export const drawerItems: {
+  title: string;
+  items: {
+    Icon: any;
+    iconName: string;
+    title: string;
+    url?: string;
+  }[];
+  showBorder?: boolean;
+}[] = [
   {
     title: "",
     items: [
@@ -129,13 +138,11 @@ export const drawerItems = [
         Icon: Entypo,
         iconName: "calendar",
         title: "Calendar",
-        url: "/calendar",
       },
       {
         Icon: FontAwesome6,
         iconName: "user-circle",
         title: "Contacts",
-        url: "/contacts",
       },
     ],
     showBorder: true,
@@ -153,7 +160,6 @@ export const drawerItems = [
         Icon: Feather,
         iconName: "help-circle",
         title: "Help & Feedback",
-        url: "/help-and-feedback",
       },
     ],
   },
