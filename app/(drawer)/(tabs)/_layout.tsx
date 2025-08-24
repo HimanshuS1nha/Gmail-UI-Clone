@@ -59,6 +59,8 @@ export default function TabsLayout() {
             },
           }}
         />
+
+        <Tabs.Screen name="mail" options={{ href: null }} />
       </Tabs>
     </GestureHandlerRootView>
   );
