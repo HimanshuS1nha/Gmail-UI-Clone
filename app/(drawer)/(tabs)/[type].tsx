@@ -23,12 +23,14 @@ const Mails = () => {
       "scheduled",
       "drafts",
       "outbox",
-      "All mail",
+      "all mail",
     ],
     []
   );
 
-  const showFilters = pageWithFilters.includes(type);
+  const showFilters = type
+    ? pageWithFilters.includes(type.split("-").join(" "))
+    : false;
 
   const filters = useMemo(
     () => [
